@@ -1,0 +1,38 @@
+:root {
+  --backColor: #122620;
+  --highlightColor: #f4ebd0;
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
+}
+
+.site__shell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--backColor);
+}
+.site__shell .coming__soon {
+  width: 100vw;
+  height: 100vh;
+  max-width: 300px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--highlightColor);
+  border-radius: 20px;
+  padding: 0 5%;
+  color: var(--highlightColor);
+  text-align: center;
+}
+.site__shell .coming__soon a {
+  font-size: large;
+  text-decoration: underline;
+}/*# sourceMappingURL=index.css.map */
