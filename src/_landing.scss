@@ -2,6 +2,11 @@
   --backColor: #122620;
   --highlightColor: #f4ebd0;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 a {
   color: unset;
   text-decoration: unset;
